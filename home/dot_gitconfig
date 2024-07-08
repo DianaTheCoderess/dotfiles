@@ -30,3 +30,4 @@
   path = /Users/artemis/dev/parimeo/.gitconfig-parimeo
 [includeIf "gitdir:/Users/artemis/bdr_dev/"]
   path = /Users/artemis/bdr_dev/.gitconfig-bdr
+
