@@ -12,4 +12,7 @@ max-cache-ttl 120
 #pinentry-program /usr/local/bin/pinentry-curses
 #pinentry-program /usr/local/bin/pinentry-mac
 #pinentry-program /opt/homebrew/bin/pinentry-mac
+#pinentry-program /opt/homebrew/bin/pinentry-mac
+{{- if eq .chezmoi.os "darwin" }}
 pinentry-program /opt/homebrew/bin/pinentry-mac
+{{- end }}
