@@ -4,7 +4,8 @@
 [gpg]
 	program = gpg
 [commit]
-	gpgSign = false
+	gpgSign = true
+  template = {{ .chezmoi.homeDir }}/.gitcommit-message
 [tag]
 	forceSignAnnotated = false
 [core]
@@ -26,8 +27,8 @@
 	helper = osxkeychain
 [push]
 	autoSetupRemote = true
-[includeIf "gitdir:/Users/artemis/dev/parimeo/"]
-  path = /Users/artemis/dev/parimeo/.gitconfig-parimeo
-[includeIf "gitdir:/Users/artemis/bdr_dev/"]
-  path = /Users/artemis/bdr_dev/.gitconfig-bdr
+[includeIf "gitdir:{{ .chezmoi.homeDir }}/dev/parimeo/"]
+  path = {{ .chezmoi.homeDir }}/dev/parimeo/.gitconfig-parimeo
+[includeIf "gitdir:{{ .chezmoi.homeDir }}/bdr_dev/"]
+  path = {{ .chezmoi.homeDir }}/bdr_dev/.gitconfig-bdr
 
