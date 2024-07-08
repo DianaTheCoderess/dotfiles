@@ -8,6 +8,7 @@ local config = {
   -- window_background_opacity = 0.75,
   macos_window_background_blur = 20,
   color_scheme = 'Catppuccin Macchiato',
+  default_cursor_style = 'SteadyUnderline',
   tab_bar_at_bottom = true,
   use_fancy_tab_bar = false,
   automatically_reload_config = true
