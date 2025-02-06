@@ -1,0 +1,18 @@
+[tools]
+usage = "latest"
+node = "22.12.0"
+python = "3.12.8"
+go = "1.22"
+deno = "1"
+kind = "0.23.0"
+bun = "latest"
+kubectl = "1.30.1"
+k3d = "5"
+pnpm = "10"
+helmfile = "latest"
+java = "corretto-21"
+"pipx:poetry" = "latest"
+pipx = "latest"
+
+[settings]
+experimental = true
