@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # Allow quitting via ⌘Q
 defaults write com.apple.finder QuitMenuItem -bool true
 
