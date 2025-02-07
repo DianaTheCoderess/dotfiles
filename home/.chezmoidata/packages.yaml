@@ -58,6 +58,13 @@ packages:
       - microsoft-teams
       - playcover-community
       - secretive
+      - signal
+      - tailscale
+      - telegram
       - unnaturalscrollwheels
+      - utm
+      - visual-studio-code
+      - vlc
       - wezterm
+      - whatsapp
 
