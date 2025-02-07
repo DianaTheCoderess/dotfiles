@@ -51,20 +51,33 @@ packages:
       - siderolabs/tap/talosctl
     casks:
       - aerospace
+      - appcleaner
       - arc
+      - betterdisplay
       - bitwarden
+      - daisydisk
       - discord
+      - disk-drill
       - font-symbols-only-nerd-font
+      - intellij-idea
+      - keepassxc
+      - mac-mouse-fix
       - microsoft-teams
+      - obsidian
       - playcover-community
+      - raindropio
+      - raycast
       - secretive
       - signal
       - tailscale
       - telegram
+      - texifier
       - unnaturalscrollwheels
       - utm
       - visual-studio-code
       - vlc
       - wezterm
       - whatsapp
+      - yubico-authenticator
+      - yubico-yubikey-manager
 
