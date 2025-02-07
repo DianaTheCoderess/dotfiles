@@ -2,7 +2,7 @@ packages:
   darwin:
     brews:
       - age
-      - xz
+      - atuin
       - azure-cli
       - bat
       - bitwarden-cli
@@ -35,6 +35,8 @@ packages:
       - rsync
       - starship
       - tmux
+      - topgrade
+      - xz
       - yq
       - fluxcd/tap/flux
       - pulumi/tap/pulumi
