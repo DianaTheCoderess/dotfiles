@@ -14,13 +14,16 @@ packages:
       - docker 
       - docker-compose 
       - fd
+      - ffmpeg
       - fish
+      - font-symbols-only-nerd-font
       - fzf
       - git
       - gnupg
       - hcloud
       - helm
       - httpie
+      - imagemagick
       - jq
       - just
       - k9s
@@ -31,13 +34,17 @@ packages:
       - neovim
       - nmap
       - pinentry-mac
+      - poppler
       - ripgrep
       - rsync
+      - sevenzip
       - starship
       - tmux
       - topgrade
       - xz
+      - yazi
       - yq
+      - zoxide
       - fluxcd/tap/flux
       - pulumi/tap/pulumi
       - siderolabs/tap/omnictl
@@ -45,6 +52,7 @@ packages:
     casks:
       - aerospace
       - arc
+      - bitwarden
       - discord
       - microsoft-teams
       - playcover-community
