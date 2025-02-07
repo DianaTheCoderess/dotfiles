@@ -16,7 +16,6 @@ packages:
       - fd
       - ffmpeg
       - fish
-      - font-symbols-only-nerd-font
       - fzf
       - git
       - gnupg
@@ -54,6 +53,7 @@ packages:
       - arc
       - bitwarden
       - discord
+      - font-symbols-only-nerd-font
       - microsoft-teams
       - playcover-community
       - secretive
