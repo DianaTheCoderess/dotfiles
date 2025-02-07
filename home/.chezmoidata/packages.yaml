@@ -27,6 +27,7 @@ packages:
       - just
       - k9s
       - kubecm
+      - kubectx
       - mise
       - navi
       - neofetch
