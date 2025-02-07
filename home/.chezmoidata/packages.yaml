@@ -1,0 +1,52 @@
+packages:
+  darwin:
+    brews:
+      - age
+      - xz
+      - azure-cli
+      - bat
+      - bitwarden-cli
+      - btop
+      - cheat
+      - chezmoi
+      - clamav
+      - colima
+      - docker 
+      - docker-compose 
+      - fd
+      - fish
+      - fzf
+      - git
+      - gnupg
+      - hcloud
+      - helm
+      - httpie
+      - jq
+      - just
+      - k9s
+      - kubecm
+      - mise
+      - navi
+      - neofetch
+      - neovim
+      - nmap
+      - pinentry-mac
+      - ripgrep
+      - rsync
+      - starship
+      - tmux
+      - yq
+      - fluxcd/tap/flux
+      - pulumi/tap/pulumi
+      - siderolabs/tap/omnictl
+      - siderolabs/tap/talosctl
+    casks:
+      - aerospace
+      - arc
+      - discord
+      - microsoft-teams
+      - playcover-community
+      - secretive
+      - unnaturalscrollwheels
+      - wezterm
+
