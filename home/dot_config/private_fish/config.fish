@@ -6,9 +6,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 if status is-interactive
     atuin init fish | source
 
-    starship init fish | source
-
-
+    #starship init fish | source
 
     function fish_greeting
         neofetch
