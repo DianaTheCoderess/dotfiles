@@ -7,6 +7,8 @@ if status is-interactive
     atuin init fish | source
 end
 
+starship init fish | source
+
 # init mise
 mise activate fish | source
 
