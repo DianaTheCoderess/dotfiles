@@ -76,7 +76,6 @@ packages:
       - tailscale
       - telegram
       - texifier
-      - unnaturalscrollwheels
       - utm
       - visual-studio-code
       - vlc
