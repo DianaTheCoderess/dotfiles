@@ -5,9 +5,15 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 if status is-interactive
     atuin init fish | source
-end
 
-starship init fish | source
+    starship init fish | source
+
+
+
+    function fish_greeting
+        neofetch
+    end
+end
 
 # init mise
 mise activate fish | source
@@ -16,9 +22,9 @@ mise activate fish | source
 set -gx XDG_CONFIG_HOME ~/.config
 
 # init gpg-agent
-set -x GPG_TTY (tty)
-set -x SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
-gpgconf --launch gpg-agent
+#set -x GPG_TTY (tty)
+#set -x SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
+#gpgconf --launch gpg-agent
 
 # set default editor
 set -gx EDITOR nvim
