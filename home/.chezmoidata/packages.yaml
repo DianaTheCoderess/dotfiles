@@ -17,6 +17,7 @@ packages:
       - ffmpeg
       - fish
       - fzf
+      - gh
       - git
       - gnupg
       - hcloud
@@ -41,6 +42,7 @@ packages:
       - starship
       - tmux
       - topgrade
+      - wget
       - xz
       - yazi
       - yq
@@ -73,6 +75,7 @@ packages:
       - raycast
       - secretive
       - signal
+      - steam
       - tailscale
       - telegram
       - texifier
