@@ -34,6 +34,7 @@ packages:
       - neofetch
       - neovim
       - nmap
+      - ollama
       - pinentry-mac
       - poppler
       - ripgrep
