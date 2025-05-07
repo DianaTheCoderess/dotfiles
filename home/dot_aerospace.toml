@@ -53,13 +53,14 @@ inner.horizontal = 6
 inner.vertical =   6
 outer.left =       12
 outer.bottom =     12
-outer.top =        24
+outer.top =        14
 outer.right =      12
 
 [workspace-to-monitor-force-assignment]
 1 = 'main'
 6 = 'LG Ultra HD'
 9 = '^built-in retina display$'
+5 = 'secondary'
 
 
 # See https://nikitabobko.github.io/AeroSpace/guide#exec-env-vars

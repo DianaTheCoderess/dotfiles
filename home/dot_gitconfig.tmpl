@@ -1,5 +1,5 @@
 [user]
-  name = art3mis
+	name = CoderessDiana
   email = diana@bendziula.com
 [gpg]
 	program = gpg
@@ -26,8 +26,13 @@
 	helper = osxkeychain
 [push]
 	autoSetupRemote = true
-[includeIf "gitdir:/Users/artemis/dev/parimeo/"]
-  path = /Users/artemis/dev/parimeo/.gitconfig-parimeo
-[includeIf "gitdir:/Users/artemis/bdr_dev/"]
-  path = /Users/artemis/bdr_dev/.gitconfig-bdr
+[includeIf "gitdir:/Users/art3mis/dev/parimeo/"]
+  path = /Users/art3mis/dev/parimeo/.gitconfig-parimeo
+[includeIf "gitdir:/Users/art3mis/bdr_dev/"]
+  path = /Users/art3mis/bdr_dev/.gitconfig-bdr
 
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
