@@ -22,7 +22,7 @@ set -gx XDG_CONFIG_HOME ~/.config
 #set -x SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
 #gpgconf --launch gpg-agent
 
-#set -x SSH_AUTH_SOCK /Users/art3mis/.bitwarden-ssh-agent.sock
+set -x SSH_AUTH_SOCK /Users/{{ .chezmoi.username }}/.bitwarden-ssh-agent.sock
 
 # set default editor
 set -gx EDITOR nvim
