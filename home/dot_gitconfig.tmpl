@@ -27,7 +27,7 @@
 [push]
 	autoSetupRemote = true
 [includeIf "gitdir:/Users/{{ .chezmoi.username }}/dev/schwarm/"]
-  path = /Users/art3mis/dev/schwarm/.gitconfig-schwarm
+  path = /Users/{{ .chezmoi.username }}/dev/schwarm/.gitconfig-schwarm
 
 [filter "lfs"]
 	clean = git-lfs clean -- %f
