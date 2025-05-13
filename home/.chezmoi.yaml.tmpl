@@ -12,3 +12,7 @@ merge:
   args:
   - '-c'
   - 'cp {{ "{{" }} .Target {{ "}}" }} {{ "{{" }} .Target {{ "}}" }}.base && code --new-window --wait --merge {{ "{{" }} .Destination {{ "}}" }} {{ "{{" }} .Target {{ "}}" }} {{ "{{" }} .Target {{ "}}" }}.base {{ "{{" }} .Source {{ "}}" }}'
+encryption: "age"
+age:
+  identity: "~/.config/chezmoi/key.txt"
+  recipient: "age1yxkvn0ts2k5u4ymns30lqjgem0d59q6yg8c9sumevws89ermxuaqwx9j7w"
