@@ -26,7 +26,7 @@
 	helper = osxkeychain
 [push]
 	autoSetupRemote = true
-[includeIf "gitdir:/Users/art3mis/dev/schwarm/"]
+[includeIf "gitdir:/Users/{{ .chezmoi.username }}/dev/schwarm/"]
   path = /Users/art3mis/dev/schwarm/.gitconfig-schwarm
 
 [filter "lfs"]
