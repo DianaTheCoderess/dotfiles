@@ -109,3 +109,12 @@ repositories:
   password: ""
   url: https://schich.tel/helm-charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: sonarqube
+  pass_credentials_all: false
+  password: ""
+  url: https://SonarSource.github.io/helm-chart-sonarqube
+  username: ""
