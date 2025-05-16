@@ -11,8 +11,8 @@ packages:
       - chezmoi
       - clamav
       - colima
-      - docker 
-      - docker-compose 
+      - docker
+      - docker-compose
       - fd
       - ffmpeg
       - fish
@@ -22,6 +22,7 @@ packages:
       - gnupg
       - hcloud
       - helm
+      - helmfile
       - httpie
       - imagemagick
       - jq
@@ -29,6 +30,7 @@ packages:
       - k9s
       - kubecm
       - kubectx
+      - kubernetes-cli
       - mise
       - navi
       - neofetch
@@ -41,6 +43,7 @@ packages:
       - rsync
       - sevenzip
       - starship
+      - sops
       - tmux
       - topgrade
       - wget
@@ -48,15 +51,12 @@ packages:
       - yazi
       - yq
       - zoxide
-      - fluxcd/tap/flux
-      - pulumi/tap/pulumi
-      - siderolabs/tap/omnictl
-      - siderolabs/tap/talosctl
     casks:
       - appcleaner
       - arc
       - betterdisplay
       - bitwarden
+      - chatgpt
       - daisydisk
       - discord
       - disk-drill
@@ -66,11 +66,14 @@ packages:
       - font-meslo-lg-nerd-font
       - font-symbols-only-nerd-font
       - font-terminess-ttf-nerd-font
+      - iina
       - intellij-idea
       - keepassxc
       - mac-mouse-fix
       - microsoft-teams
+      - notion
       - obsidian
+      - orbstack
       - playcover-community
       - raindropio
       - raycast
@@ -85,5 +88,3 @@ packages:
       - vlc
       - wezterm
       - yubico-authenticator
-      - nikitabobko/tap/aerospace
-
