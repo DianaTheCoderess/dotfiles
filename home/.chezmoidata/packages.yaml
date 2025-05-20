@@ -51,11 +51,16 @@ packages:
       - yazi
       - yq
       - zoxide
+      - fluxcd/tap/flux
+      - pulumi/tap/pulumi
+      - siderolabs/tap/omnictl
+      - siderolabs/tap/talosctl
     casks:
       - appcleaner
       - arc
       - betterdisplay
       - bitwarden
+      - claude
       - chatgpt
       - daisydisk
       - discord
