@@ -47,6 +47,7 @@ packages:
       - tmux
       - topgrade
       - wget
+      - wtfutil
       - xz
       - yazi
       - yq
