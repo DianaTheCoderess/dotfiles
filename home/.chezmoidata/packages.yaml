@@ -28,6 +28,7 @@ packages:
       - jq
       - just
       - k9s
+      - krew
       - kubecm
       - kubectx
       - kubernetes-cli
