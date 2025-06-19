@@ -11,5 +11,4 @@ java = "corretto-24"
 "pipx:poetry" = "latest"
 pipx = "latest"
 pnpm = "10.11.0"
-
-
+uv = "0.7.13"
