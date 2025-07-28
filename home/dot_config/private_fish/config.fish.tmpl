@@ -19,11 +19,11 @@ mise activate fish | source
 zoxide init fish | source
 
 # init gpg-agent
-set -x GPG_TTY (tty)
-set -x SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
-gpgconf --launch gpg-agent
+#set -x GPG_TTY (tty)
+#set -x SSH_AUTH_SOCK (gpgconf --list-dirs agent-ssh-socket)
+#gpgconf --launch gpg-agent
 
-#set -x SSH_AUTH_SOCK /Users/dina/.bitwarden-ssh-agent.sock
+set -x SSH_AUTH_SOCK /Users/{{ .chezmoi.username }}/.bitwarden-ssh-agent.sock
 
 # set default editor
 set -gx EDITOR nvim
