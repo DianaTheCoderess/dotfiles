@@ -19,10 +19,10 @@
 	helper = osxkeychain
 [push]
 	autoSetupRemote = true
-[includeIf "gitdir:/Users/dina/dev/schwarm/"]
-  path = /Users/dina/dev/schwarm/.gitconfig-schwarm
-[includeIf "gitdir:/Users/dina/dev/eon/"]
-  path = /Users/dina/dev/eon/.gitconfig-eon
+[includeIf "gitdir:/Users/{{ .chezmoi.username }}/dev/schwarm/"]
+  path = /Users/{{ .chezmoi.username }}/dev/schwarm/.gitconfig-schwarm
+[includeIf "gitdir:/Users/{{ .chezmoi.username }}/dev/eon/"]
+  path = /Users/{{ .chezmoi.username }}/dev/eon/.gitconfig-eon
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
