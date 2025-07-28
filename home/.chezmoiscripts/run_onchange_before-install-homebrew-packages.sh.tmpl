@@ -1,11 +1,6 @@
 {{ if eq .chezmoi.os "darwin" -}}
 #!/usr/bin/env bash
 
-brew tap fluxcd/tap
-brew tap nikitabobko/tap
-brew tap pulumi/tap
-brew tap siderolabs/tap
-
 brew bundle --file=/dev/stdin <<EOF
 {{ range .packages.darwin.brews -}}
 brew {{ . | quote }}

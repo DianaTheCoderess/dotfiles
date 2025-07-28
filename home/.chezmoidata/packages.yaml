@@ -1,94 +1,74 @@
 packages:
   darwin:
     brews:
-      - age
       - atuin
-      - azure-cli
-      - bat
       - bitwarden-cli
       - btop
       - cheat
-      - chezmoi
       - clamav
-      - colima
-      - docker
-      - docker-compose
       - fd
       - ffmpeg
       - fish
       - fzf
-      - gh
       - git
       - git-delta
       - gnupg
-      - hcloud
-      - helm
-      - helmfile
       - httpie
       - imagemagick
-      - jq
-      - just
-      - k9s
-      - krew
-      - kubecm
-      - kubectx
-      - kubernetes-cli
       - mise
       - navi
       - neofetch
       - neovim
       - nmap
-      - ollama
       - pinentry-mac
       - poppler
       - ripgrep
       - rsync
       - sevenzip
       - starship
-      - sops
       - tmux
       - topgrade
+      - watch
       - wget
-      - wtfutil
-      - xz
       - yazi
-      - yq
       - zoxide
-      - fluxcd/tap/flux
-      - pulumi/tap/pulumi
-      - siderolabs/tap/omnictl
-      - siderolabs/tap/talosctl
     casks:
+      - aerospace
       - appcleaner
       - arc
       - betterdisplay
       - bitwarden
-      - claude
       - chatgpt
+      - claude
       - daisydisk
       - discord
       - disk-drill
-      - font-inconsolata-nerd-font
       - font-fira-code-nerd-font
       - font-hack-nerd-font
+      - font-inconsolata-nerd-font
       - font-meslo-lg-nerd-font
       - font-symbols-only-nerd-font
       - font-terminess-ttf-nerd-font
+      - gitkraken
+      - gitkraken-cli
+      - hiddenbar
       - iina
       - intellij-idea
       - keepassxc
+      - languagetool
+      - languagetool-desktop
       - mac-mouse-fix
       - microsoft-teams
-      - notion
       - obsidian
       - orbstack
       - playcover-community
-      - raindropio
       - raycast
       - secretive
       - signal
+      - spotify
       - steam
       - tailscale
+      - tailscale-app
       - telegram
       - texifier
       - utm
