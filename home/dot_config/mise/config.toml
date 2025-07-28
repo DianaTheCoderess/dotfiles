@@ -11,5 +11,12 @@ java = "corretto-24"
 "pipx:poetry" = "latest"
 pipx = "latest"
 pnpm = "10.11.0"
+rust = "latest"
+opentofu = "latest"
+ast-grep = "latest"
+lua = "5.1"
+biome = "latest"
+markdownlint-cli2 = "latest"
+terraform = "latest"
 
 
