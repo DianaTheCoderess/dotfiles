@@ -19,6 +19,7 @@ packages:
       - fzf
       - gh
       - git
+      - git-delta
       - gnupg
       - hcloud
       - helm
@@ -28,6 +29,7 @@ packages:
       - jq
       - just
       - k9s
+      - krew
       - kubecm
       - kubectx
       - kubernetes-cli
