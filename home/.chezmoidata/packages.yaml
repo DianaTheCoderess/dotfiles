@@ -19,6 +19,7 @@ packages:
       - fzf
       - gh
       - git
+      - git-delta
       - gnupg
       - hcloud
       - helm
