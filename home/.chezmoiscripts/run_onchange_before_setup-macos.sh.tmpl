@@ -1,5 +1,6 @@
-#!/usr/bin/env bash
+#!{{ lookPath "sh" }}
 
+{{ if eq .chezmoi.os "darwin" -}}
 # Allow quitting via ⌘Q
 defaults write com.apple.finder QuitMenuItem -bool true
 
@@ -17,4 +18,4 @@ defaults write com.apple.finder FXDefaultSearchScope -string SCcf
 
 # Allow text selection in Quick Look
 defaults write com.apple.finder QLEnableTextSelection -bool true
-
+{{ end -}}
