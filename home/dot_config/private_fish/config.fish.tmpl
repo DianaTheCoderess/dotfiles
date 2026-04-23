@@ -1,5 +1,5 @@
-{{- if eq .chezmoi.os "darwin" -}}
-{{-     include "config_darwin.fish.tmpl" -}}
-{{- else if eq .chezmoi.os "linux" -}}
-{{-     include "config_linux.fish.tmpl" -}}
-{{- end -}}
+{ { - if eq .chezmoi.os darwin - } }
+{ { - template "config_darwin.fish.tmpl" . - } }
+{ { - else if eq .chezmoi.os linux - } }
+{ { - template "config_linux.fish.tmpl" . - } }
+{ { - end - } }
